@@ -1,0 +1,101 @@
+.custom-navbar {
+  background-color: #001a38;
+  padding: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-group {
+  display: flex;
+  justify-content: center; 
+  gap: 15px; 
+  margin: 10px 0;
+}
+
+.custom-btn {
+  background-color: #000000;
+  border: none;
+  color: white;
+  /* Made button padding more proportional */
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  border-radius: 80px;
+  /* Added responsive font size */
+  font-size: 1rem;
+}
+
+.custom-btn:hover {
+  background-color: #0985f8;
+  color: white;
+}
+
+body {
+  background-color: #383838;
+  min-height: 100vh;
+}
+
+.navbar-brand {
+  color: rgb(255, 255, 255) ;
+  font-weight: bold;
+}
+
+.photo-holder {
+  /* Reduced photo size for better proportions */
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph {
+  color: white;
+
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-top: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(5, 134, 255)  
+}
+.title {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgb(5, 134, 255)  
+}
+@media (max-width: 768px) {
+  .photo-holder {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .paragraph {
+    font-size: 1.25rem;
+    padding: 0 15px;
+  }
+  
+  .custom-btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .custom-navbar {
+    padding: 20px;
+  }
+}
