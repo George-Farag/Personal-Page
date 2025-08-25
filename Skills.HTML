@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-    <!-- Links -->
+    <title>Skills</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="Style.CSS">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
@@ -13,31 +12,96 @@
 <nav class="navbar custom-navbar">
   <div class="container-fluid">
     <a class="navbar-brand"></a>
-    <!-- Centered the navigation buttons using justify-content-center -->
-    <div class="d-flex justify-content-center w-100">
-      <button class="btn custom-btn me-2" type="button">Home</button>
-      <button class="btn custom-btn me-2" type="button">Skills</button>
-      <button class="btn custom-btn" type="button">About me</button>
-    </div>
-  </div>
+<div class="d-flex justify-content-center w-100">
+  <a href="Personal-Page/Home.HTML">
+    <button class="btn custom-btn me-2" type="button">Home</button>
+  </a>
+  <a href="Personal-Page/Skills.HTML">
+    <button class="btn custom-btn me-2" type="button">Skills</button>
+  </a>
+</div>
 </nav>
-<br>
-<!-- Main page content -->
-<!-- Photo -->
-<div class="photo-holder">
-<img src="your-photo.jpg" alt="Profile Photo">
-</div>
-<br>
-<!-- Introduction -->
-<div>
-<p class="title">Hi, I am George Farag</p>
-<br>
-<p class="paragraph">I am an aspiring software developer with a passion for creating innovative solutions.<br> I enjoy learning new technologies and improving my skills in programming and software design. In my free time, I  like drawing, playing video games, and I am a tech enthusiast.
-</p>
-</div>
+    <br>
 
-<footer class="text-center mt-5">
-  <p>2025 </p>
-</footer>
-</body>
+    <!-- Cards Section -->
+    <div class="container mt-5">
+      <div class="row g-4">
+
+        <!-- C++ -->
+        <div class="col-md-4">
+          <div class="card custom-card h-100">
+            <div class="card-body text-center">
+              <img src="C++logo.png" alt="C++ Logo" class="tech-img">
+              <h5 class="card-title mt-3">C++</h5>
+              <p class="card-text">Experienced in object-oriented programming, data structures, and algorithms.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Python -->
+        <div class="col-md-4">
+          <div class="card custom-card h-100">
+            <div class="card-body text-center">
+              <img src="Pythonlogo.png" alt="Python Logo" class="tech-img">
+              <h5 class="card-title mt-3">Python</h5>
+              <p class="card-text">Skilled in Python data analysis, and API integration.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- HTML -->
+        <div class="col-md-4">
+          <div class="card custom-card h-100">
+            <div class="card-body text-center">
+              <img src="HTMLlogo.png" alt="HTML Logo" class="tech-img">
+              <h5 class="card-title mt-3">HTML</h5>
+              <p class="card-text">Skilled in crafting structured, semantic, and accessible web pages with HTML.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CSS -->
+        <div class="col-md-4">
+          <div class="card custom-card h-100">
+            <div class="card-body text-center">
+              <img src="CSSlogo.svg" alt="CSS Logo" class="tech-img">
+              <h5 class="card-title mt-3">CSS</h5>
+              <p class="card-text">Comfortable Styling and designing modern, responsive websites with CSS and the bootstrap framework.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="col-md-4">
+          <div class="card custom-card h-100">
+            <div class="card-body text-center">
+              <img src="JSlogo.png" alt="JavaScript Logo" class="tech-img">
+              <h5 class="card-title mt-3">JavaScript</h5>
+              <p class="card-text">Built interactive and dynamic web experiences with modern JavaScript.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SQL -->
+        <div class="col-md-4">
+          <div class="card custom-card h-100">
+            <div class="card-body text-center">
+              <img src="SQLlogo.png" alt="SQL Logo" class="tech-img">
+              <h5 class="card-title mt-3">SQL</h5>
+              <p class="card-text">Accustomed to designing databases, writing queries, and managing structured data with SQL.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Download Resume Button -->
+      <div class="text-center mt-5">
+        <a href="George Farag resume.pdf" class="btn btn-primary btn-lg" download>Download Resume</a>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="text-center mt-5">
+  <p>© 2025 George Farag</p>
+    </footer>
+  </body>
 </html>

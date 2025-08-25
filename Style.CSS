@@ -1,5 +1,5 @@
 .custom-navbar {
-  background-color: #001a38;
+  background-color: #1caec2;
   padding: 30px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -15,19 +15,17 @@
   background-color: #000000;
   border: none;
   color: white;
-  /* Made button padding more proportional */
   padding: 0.75rem 2rem;
   border-radius: 6px;
   font-weight: 500;
   transition: background-color 0.3s ease;
   border-radius: 80px;
-  /* Added responsive font size */
   font-size: 1rem;
 }
 
 .custom-btn:hover {
   background-color: #0985f8;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 body {
@@ -41,13 +39,12 @@ body {
 }
 
 .photo-holder {
-  /* Reduced photo size for better proportions */
   width: 250px;
   height: 250px;
   border-radius: 50%;
   overflow: hidden;
-  border: 4px solid white;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border: 4px solid rgb(255, 123, 0);
+  box-shadow: 0 4px 10px rgb(199, 11, 11);
   margin: 0 auto;  
   display: flex;
   align-items: center;
@@ -64,7 +61,6 @@ body {
 
 .paragraph {
   color: white;
-
   font-size: 1.5rem;
   line-height: 1.6;
   margin-top: 20px;
@@ -98,4 +94,113 @@ body {
   .custom-navbar {
     padding: 20px;
   }
+}
+.custom-navbar {
+  background-color: #074c58;
+}
+
+.custom-btn {
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 20px;
+}
+
+.custom-btn:hover {
+  background-color: #084298;
+}
+
+.custom-card {
+  border: none;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+.tech-img {
+  width: 80px;      
+  height: 80px;     
+  object-fit: contain;  
+  display: block;
+  margin: 0 auto;   
+}
+
+footer {
+  color: white;
+  padding: 15px;
+}
+
+.Btn {
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  background: #0274b3;
+  
+}
+
+.svgIcon {
+  transition-duration: 0.3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+.text {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  width: 120px;
+  font-weight: 600;
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+
+.Btn:hover {
+  width: 110px;
+  transition-duration: 0.4s;
+  border-radius: 30px;
+}
+
+.Btn:hover .text {
+  opacity: 1;
+  transition-duration: 0.4s;
+}
+
+.Btn:hover .svgIcon {
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; 
+  margin-top: 10px;        
+}
+
+.btn-social {
+  background-color: #0274b3;  
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;                  
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-social:hover {
+  background-color: #025a91;  
 }
